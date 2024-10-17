@@ -13,7 +13,9 @@ const users = [
   "hr@email.it",
 ];
 // * CHIEDO la mail all'utente
-const userMail = prompt("Inserisci la tua mail");
+const userMail = prompt(
+  "Inserisci la tua mail per sapere se hai già un account"
+);
 
 // * dichiaro var output
 let outputMessage = "";
