@@ -8,13 +8,11 @@ alert(
   "Gioco dei dadi contro il PC: \nVerrà assegnato un numero casuale sia a te che al PC \nVince chi ha il numero maggiore!"
 );
 
-// * GENERO NUMERO CASUALE PER COMPUTER
+// * GENERO NUMERO CASUALE DA 1 A 6 PER COMPUTER
 const pcNumber = Math.floor(Math.random() * 6 + 1);
-console.log(pcNumber);
 
-// * GENERO NUMERO CASUALE PER UTENTE
+// * GENERO NUMERO CASUALE DA 1 A 6 PER UTENTE
 const userNumber = Math.floor(Math.random() * 6 + 1);
-console.log(userNumber);
 
 // * GENERO OPUTPUTMESSAGE
 let outputMessage;

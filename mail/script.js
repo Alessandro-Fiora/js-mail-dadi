@@ -22,7 +22,7 @@ let outputMessage = "";
 
 // ! ELABORAZIONE
 
-// * VALIDAZIONE EMAIL USING REGEX
+// * VALIDAZIONE EMAIL USANDO REGEX
 const validateEmail = (userMail) => {
   return String(userMail)
     .toLowerCase()
